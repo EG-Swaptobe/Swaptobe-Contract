@@ -32,7 +32,7 @@ const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   networks: {
     tobechain: {
-      url: "https://rpc.tobescan.com",
+      url: "https://rpc-testnet.tobescan.com",
       chainId: 4080,
       accounts: [PRIVATE_KEY]
     },
@@ -52,9 +52,9 @@ const config: HardhatUserConfig = {
         network: "tobechain",
         chainId: 4080,
         urls: {
-          apiURL: "https://tobescan.com/api",
-          browserURL: "https://tobescan.com"
-        }
+          apiURL: "https://testnet.tobescan.com/api",
+          browserURL: "https://testnet.tobescan.com"
+        },
       },
     ]
   },
